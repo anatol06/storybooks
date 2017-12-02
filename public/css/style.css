@@ -1,0 +1,40 @@
+ 
+   html {
+    
+  }
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .nav-wrapper .fa-bars {
+    font-size: 25px;
+    color: #ddd;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+
+  .user-img {
+    width: 45%;
+    height: auto;
+  }
+
+  .story-text {
+    height: 90px;
+  }
+
+  .dash-status {
+    text-transform: capitalize;
+  }
+
+  #delete-form{
+    display: inline;
+  }
